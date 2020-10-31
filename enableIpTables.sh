@@ -7,7 +7,7 @@ sudo nano /proc/sys/net/ipv4/ip_forward
 
 sudo kubeadm init --pod-network-cidr=10.244.0.0/16
 
-# configuracion de kubeconfig:
+#Configuracion de kubeconfig:
 
 mkdir -p $HOME/.kube
 
