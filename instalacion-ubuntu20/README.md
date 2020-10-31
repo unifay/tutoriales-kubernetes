@@ -1,6 +1,6 @@
 # Instalacion y configuracion de kubernetes
 
-## Instalar repositorios de docker y kubernetes para todos los nodos maestro y workers
+## Instalar repositorios de docker y kubernetes para el nodo maestro y workers
 ```
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
