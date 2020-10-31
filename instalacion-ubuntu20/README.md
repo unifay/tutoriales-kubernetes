@@ -1,6 +1,6 @@
 # Instalacion y configuracion de kubernetes
 
-## Instalar repositorios de docker y kubernetes
+## Instalar repositorios de docker y kubernetes para todos los nodos maestro y workers
 ```
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
@@ -21,7 +21,7 @@ sudo apt-get update
 
 sudo apt-get install -y docker-ce docker-ce-cli kubelet kubeadm kubectl
 
-sudo apt-mark hold docker-ce kubelet kubeadm kubectl
+sudo apt-mark hold docker-ce docker-ce-cli kubelet kubeadm kubectl
 ```
 
 ## Configuracion de los iptables
@@ -35,9 +35,10 @@ sudo sysctl -p
 ***
 # En el nodo Maestro
 
+
 ```
 sudo nano /proc/sys/net/ipv4/ip_forward
-(Change from 0 to 1) 
+#cambiar a 1 si esta en 0 el resultado del comando anterior
 
 sudo kubeadm init --pod-network-cidr=10.244.0.0/16
 ```

@@ -1,7 +1,6 @@
 #Inicializar el cluster
 
 sudo nano /proc/sys/net/ipv4/ip_forward
-(Change from 0 to 1) 
 
 sudo kubeadm init --pod-network-cidr=10.244.0.0/16
 
