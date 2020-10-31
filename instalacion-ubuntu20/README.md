@@ -57,10 +57,18 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/3f7d3e6c24f641e7ff557ebcea1136fdf4b1b6a1/Documentation/kube-flannel.yml
 ```
 
+## Antes de ir a los nodos workers ejecutamos el siguiente comando en el nodo maestro y lo copiamos o guardamos el resultado
+
+```
+kubeadm token create --print-join-command
+```
+
 ***
 # En los nodos Workers
 
-## Agregar el token y el hash generados en la instalacion del nodo maestro al siguiente comando
+## Agregar el token y el hash generados en la ejecucion del comando final de la instalacion del nodo maestro similar siguiente comando
 ```
 sudo kubeadm join $controller_private_ip:6443 --token $token --discovery-token-ca-cert-hash $hash
 ```
+
+Solo se cambian **$token** y **$hash**
