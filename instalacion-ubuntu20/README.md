@@ -72,3 +72,4 @@ sudo kubeadm join $controller_private_ip:6443 --token $token --discovery-token-c
 ```
 
 Solo se cambian **$token** y **$hash**
+
