@@ -11,5 +11,5 @@ Buscanos en youtube como [Unifay](https://www.youtube.com/channel/UC3HxAEFZa2VIx
 
 [Borrar nodo worker](borrarNodoK8s.md)
 
-[Objetos de Kubernetes](ApiKubernetes.md)
+[API de Kubernetes](ApiKubernetes.md)
 
