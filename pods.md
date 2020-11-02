@@ -18,7 +18,7 @@ spec:
   containers:
   - name: miapp-container
     image: busybox
-    command: ['sh', '-c', 'echo Hello Kubernetes! && sleep 3600']
+    command: ['sh', '-c', 'echo Hola Kubernetes! && sleep 3600']
 ```
 
 Creamos el pod:
