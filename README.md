@@ -13,6 +13,3 @@ Buscanos en youtube como [Unifay](https://www.youtube.com/channel/UC3HxAEFZa2VIx
 
 [Objetos de Kubernetes](objetosKubernetes.md)
 
-[](#foo)
-
-# Foo
