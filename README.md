@@ -13,3 +13,5 @@ Buscanos en youtube como [Unifay](https://www.youtube.com/channel/UC3HxAEFZa2VIx
 
 [API de Kubernetes](ApiKubernetes.md)
 
+[Creacion de Pods](pods.md)
+
