@@ -1,4 +1,4 @@
-# Objetos de Kubernetes
+# API Primitiva u Objetos de Kubernetes
 
 ***
 
